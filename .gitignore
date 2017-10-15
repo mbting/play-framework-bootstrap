@@ -3,4 +3,4 @@ project/project
 project/target
 target
 .idea
-*.dist.conf
+application.conf
