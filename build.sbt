@@ -9,5 +9,7 @@ lazy val root = (project in file("."))
 scalaVersion := "2.11.11"
 
 libraryDependencies ++= Seq(
-  guice
+  guice,
+  ws,
+  "org.json4s" % "json4s-native_2.11" % "3.5.3"
 )

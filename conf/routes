@@ -1,1 +1,3 @@
-GET	/	controllers.Application.index
+GET	/	    controllers.Application.index
+GET	/web	controllers.Application.web
+GET	/error	controllers.Application.error
